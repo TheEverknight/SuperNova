@@ -13190,7 +13190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599056675}
   m_Layer: 10
-  m_Name: ProjectileSpawnPoint
+  m_Name: ProjectileSpawnPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13202,13 +13202,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 599056674}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 5.7999997, y: -5.980004, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7132504, w: 0.7009094}
+  m_LocalPosition: {x: 5.8, y: -4.01, z: 0}
   m_LocalScale: {x: 1.0000492, y: 0.99996746, z: 0.9999672}
   m_Children: []
   m_Father: {fileID: 1689800660}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91}
 --- !u!1 &599395481
 GameObject:
   m_ObjectHideFlags: 0
@@ -16961,8 +16961,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5488a5be272064eb51e92a6a062653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectileSpawnPoint1: {fileID: 2073811482}
-  ProjectileSpawnPoint2: {fileID: 599056675}
+  ProjectileSpawnPoints:
+  - {fileID: 2073811482}
+  - {fileID: 599056675}
 --- !u!1 &760943786
 GameObject:
   m_ObjectHideFlags: 0
@@ -40269,13 +40270,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2073811481}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -6.120001, y: -5.980002, z: -0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.70090926, w: 0.71325046}
+  m_LocalPosition: {x: -6.120001, y: -4.01, z: -0}
   m_LocalScale: {x: 0.4000005, y: 0.40000054, z: 0.40000042}
   m_Children: []
   m_Father: {fileID: 1689800660}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89}
 --- !u!1 &2075636715
 GameObject:
   m_ObjectHideFlags: 0
